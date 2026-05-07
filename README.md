@@ -93,6 +93,7 @@ The report is built entirely on a single dataset with no external data sources, 
 | Middle centre | Heatmap recommendation card |
 | Middle right | Age Group Impact on Control Rate (bar chart + parameter selector) |
 | Bottom | High-Risk Patient Flags — Point-of-Prescription Risk Register (Deneb custom table) |
+<img width="769" height="499" alt="Pg1" src="https://github.com/user-attachments/assets/e86976ab-60c3-4f3c-abc2-e5752afaf685" />
 
 ### Page 2 — Problem 2: Drug Class Efficacy by Comorbidity
 
@@ -107,6 +108,7 @@ The report is built entirely on a single dataset with no external data sources, 
 | Bottom centre | Comorbidity Profile vs BP Control — Drug Class Interaction (clustered column) |
 | Bottom right | Comorbidity Burden vs Control Rate (bar chart) |
 | Footer | Overall drug class recommendation card |
+<img width="773" height="498" alt="Pg2" src="https://github.com/user-attachments/assets/010479e4-f563-4c00-977f-ec784e676300" />
 
 ---
 
@@ -357,13 +359,14 @@ Enter Data → Name it 'Measures'
 Export Slide 1 from HCC_PowerBI_Background_ColorTemplate.pptx as PNG
 → Power BI → View → Wallpaper → Upload PNG → Transparency: 0%
 
+```
 Background 1:
 <img width="1920" height="1250" alt="background0" src="https://github.com/user-attachments/assets/24783298-1653-4aaa-a715-0fcf91286068" />
 
 Background 2:
 <img width="1920" height="1250" alt="background1" src="https://github.com/user-attachments/assets/2dd29e19-aa3d-4120-952e-80bb2e4c1e93" />
 
-```
+---
 
 ### Slicers
 | Slicer | Field | Style |
