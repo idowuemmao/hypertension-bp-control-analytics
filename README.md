@@ -314,28 +314,9 @@ Min (0% control) → Middle (8–14%) → Max (≥17% control)
 
 ## 🛠 Custom Visuals
 
-### Deneb (Vega) — High-Risk Patient Risk Register
-
-The patient-level risk table is built using **Deneb** (AppSource custom visual) with a full **Vega specification** providing:
-
-- Row background color driven by `Risk_Score` (red ≥5 · amber 3–4 · blue ≤2)
-- Rounded pill badges for `Medication_Adherence`, `Risk_Category`, `BP_Controlled`
-- Inline progress bar for `Risk_Score` (0–8 scale) with color threshold encoding
-- Gender icon (♂/♀) with color coding
-- SBP chip with blue background
-- Auto-sorted by `Risk_Score` descending
-- Full slicer cross-filter compatibility
-
-**Fields required in Deneb:** `Patient_ID`, `Age`, `Gender`, `Antihypertensive_Class`, `Baseline_Systolic_BP`, `Medication_Adherence`, `Comorbidity_Count`, `Risk_Score`, `Risk_Category`, `BP_Controlled_After_3_Months` + 5 color measures
+**Fields used for the matrix:** `Patient_ID`, `Age`, `Gender`, `Antihypertensive_Class`, `Baseline_Systolic_BP`, `Medication_Adherence`, `Comorbidity_Count`, `Risk_Score`, `Risk_Category`, `BP_Controlled_After_3_Months` + 5 color measures
 
 ---
-
-## 🚀 How to Use
-
-### Prerequisites
-- Power BI Desktop (latest version)
-- Deneb visual installed from AppSource
-- Dataset: `Hypertension_Cardiology_Center_Dataset.xlsx`
 
 ### Setup Steps
 
@@ -343,7 +324,7 @@ The patient-level risk table is built using **Deneb** (AppSource custom visual) 
 ```
 Home → Get Data → Excel Workbook
 → Select Hypertension_Cardiology_Center_Dataset.xlsx
-→ Rename table to 'HypertensionData'
+→ Rename table to 'Hypertension_Data'
 ```
 
 **2. Power Query transformations**
@@ -375,6 +356,13 @@ Enter Data → Name it 'Measures'
 ```
 Export Slide 1 from HCC_PowerBI_Background_ColorTemplate.pptx as PNG
 → Power BI → View → Wallpaper → Upload PNG → Transparency: 0%
+
+Background 1:
+<img width="1920" height="1250" alt="background0" src="https://github.com/user-attachments/assets/24783298-1653-4aaa-a715-0fcf91286068" />
+
+Background 2:
+<img width="1920" height="1250" alt="background1" src="https://github.com/user-attachments/assets/2dd29e19-aa3d-4120-952e-80bb2e4c1e93" />
+
 ```
 
 ### Slicers
@@ -440,7 +428,7 @@ hypertension-analytics-dashboard/
 
 **Built as part of a clinical data analytics challenge**
 Dataset: Hypertension Cardiology Center · 350 patients · Jan–Dec 2024
-Tools: Power BI Desktop · DAX · Deneb (Vega) · Excel · Python (EDA)
+Tools: Power BI Desktop · DAX · Excel
 
 ---
 
