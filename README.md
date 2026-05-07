@@ -429,10 +429,10 @@ hypertension-analytics-dashboard/
 
 ## 👤 Author
 
-**Built as part of a clinical data analytics challenge**
+**Built as part of a clinical data analytics challenge by [Zion Tech Hub](https://www.linkedin.com/company/zion-tech-hub/posts/?feedView=all) and [Godsent Ndoma](https://www.linkedin.com/in/godsent-ndoma-7b919322b/) **
 Dataset: Hypertension Cardiology Center · 350 patients · Jan–Dec 2024
 Tools: Power BI Desktop · DAX · Excel
-
+Created By: [Emmanuel Idowu](https://www.linkedin.com/in/emmanuel-idowu-analyst/)
 ---
 
 ## 📜 License
